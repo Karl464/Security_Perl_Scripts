@@ -10,7 +10,7 @@ In order to use the debug options use:
 
 
 ## Perl modules installation prerequisites
-To instlal modules cpanm will be require, fallow next instructions:
+To install modules cpanm will be require, fallow next instructions:
 [https://learn.perl.org/modules/](https://learn.perl.org/modules/)
 
 > sudo apt-get install cpanminus
@@ -27,10 +27,15 @@ or
 ## Install nmap extentions
 In order to use the debug options use:
 [https://metacpan.org/pod/Nmap::Scanner](https://metacpan.org/pod/Nmap::Scanner)
+
 > sudo cpanm install Nmap::Parser
+
 > sudo cpanm install Nmap::Scanner --force
+
 > apt-get install libnet-pcap-perl   #prerequirement for NetworkInfo::Discovery >> Net::Pcap
+
 > sudo cpanm install NetworkInfo::Discovery --force
+
 > sudo cpanm install NetworkInfo::Discovery::Nmap --force
 
 ## Sniffer
